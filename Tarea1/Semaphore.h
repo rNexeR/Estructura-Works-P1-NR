@@ -4,8 +4,7 @@
 #include <QWidget>
 #include <QMessageBox>
 #include <vector>
-#include "Calle.h"
-//#include "Semaphore.ui"
+#include "Tarea1/Calle.h"
 
 namespace Ui {
 class Semaphore;

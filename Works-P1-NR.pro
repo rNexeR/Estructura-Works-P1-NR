@@ -14,13 +14,17 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         MainMenu.cpp \
-    Semaphore.cpp \
-    Calle.cpp
+    Tarea1/Calle.cpp \
+    Tarea1/Semaphore.cpp \
+    Tarea2/Duplicates.cpp
 
 HEADERS  += MainMenu.h \
-    Semaphore.h \
-    Calle.h \
-    color.h
+    Tarea1/color.h \
+    Tarea1/Calle.h \
+    Tarea1/Semaphore.h \
+    Tarea1/color.h \
+    Tarea2/Duplicates.h
 
 FORMS    += MainMenu.ui \
-    Semaphore.ui
+    Tarea1/Semaphore.ui \
+    Tarea2/Duplicates.ui

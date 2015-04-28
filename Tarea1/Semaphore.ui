@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Semaphore</string>
   </property>
   <widget class="QLabel" name="AB">
    <property name="enabled">

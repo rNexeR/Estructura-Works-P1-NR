@@ -2,7 +2,8 @@
 #define MAINMENU_H
 
 #include <QMainWindow>
-#include "Semaphore.h"
+#include "Tarea1/Semaphore.h"
+#include "Tarea2/Duplicates.h"
 
 namespace Ui {
 class MainMenu;
@@ -19,6 +20,8 @@ public:
 private slots:
     void on_pushButton_clicked();
     void open_Semaphore();
+
+    void on_pushButton_2_clicked();
 
 private:
     Ui::MainMenu *ui;

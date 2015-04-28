@@ -21,5 +21,12 @@ void MainMenu::open_Semaphore(){
 
 void MainMenu::on_pushButton_clicked()
 {
-    open_Semaphore();
+   open_Semaphore();
+}
+
+void MainMenu::on_pushButton_2_clicked()
+{
+    Duplicates *Ventana_Nueva = new Duplicates();
+    Ventana_Nueva->setWindowModality(Qt::ApplicationModal);
+    Ventana_Nueva->show();
 }
