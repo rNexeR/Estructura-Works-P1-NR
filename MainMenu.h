@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include "Tarea1/Semaphore.h"
 #include "Tarea2/Duplicates.h"
+#include "Tarea3/Arrays.h"
 
 namespace Ui {
 class MainMenu;
@@ -22,6 +23,8 @@ private slots:
     void open_Semaphore();
 
     void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
 
 private:
     Ui::MainMenu *ui;

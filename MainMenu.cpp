@@ -30,3 +30,9 @@ void MainMenu::on_pushButton_2_clicked()
     Ventana_Nueva->setWindowModality(Qt::ApplicationModal);
     Ventana_Nueva->show();
 }
+
+void MainMenu::on_pushButton_3_clicked()
+{
+    Arrays *Ventana_Nueva = new Arrays();
+    Ventana_Nueva->show();
+}
