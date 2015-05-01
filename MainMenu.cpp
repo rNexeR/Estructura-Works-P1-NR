@@ -36,3 +36,9 @@ void MainMenu::on_pushButton_3_clicked()
     Arrays *Ventana_Nueva = new Arrays();
     Ventana_Nueva->show();
 }
+
+void MainMenu::on_pushButton_4_clicked()
+{
+    Lists *Ventana_Nueva = new Lists();
+    Ventana_Nueva->show();
+}

@@ -22,6 +22,9 @@
      <height>231</height>
     </rect>
    </property>
+   <property name="alternatingRowColors">
+    <bool>false</bool>
+   </property>
   </widget>
   <widget class="QPushButton" name="btnquitar">
    <property name="geometry">

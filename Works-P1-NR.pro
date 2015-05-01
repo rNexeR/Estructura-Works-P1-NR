@@ -17,7 +17,10 @@ SOURCES += main.cpp\
     Tarea1/Calle.cpp \
     Tarea1/Semaphore.cpp \
     Tarea2/Duplicates.cpp \
-    Tarea3/Arrays.cpp
+    Tarea3/Arrays.cpp \
+    Tarea4/Lists.cpp \
+    Tarea4/Carta.cpp \
+    Tarea4/Listcartas.cpp
 
 HEADERS  += MainMenu.h \
     Tarea1/color.h \
@@ -25,9 +28,13 @@ HEADERS  += MainMenu.h \
     Tarea1/Semaphore.h \
     Tarea1/color.h \
     Tarea2/Duplicates.h \
-    Tarea3/Arrays.h
+    Tarea3/Arrays.h \
+    Tarea4/Lists.h \
+    Tarea4/Carta.h \
+    Tarea4/Listcartas.h
 
 FORMS    += MainMenu.ui \
     Tarea1/Semaphore.ui \
     Tarea2/Duplicates.ui \
-    Tarea3/Arrays.ui
+    Tarea3/Arrays.ui \
+    Tarea4/Lists.ui

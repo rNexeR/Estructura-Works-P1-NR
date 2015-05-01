@@ -5,6 +5,7 @@
 #include "Tarea1/Semaphore.h"
 #include "Tarea2/Duplicates.h"
 #include "Tarea3/Arrays.h"
+#include "Tarea4/Lists.h"
 
 namespace Ui {
 class MainMenu;
@@ -25,6 +26,8 @@ private slots:
     void on_pushButton_2_clicked();
 
     void on_pushButton_3_clicked();
+
+    void on_pushButton_4_clicked();
 
 private:
     Ui::MainMenu *ui;
