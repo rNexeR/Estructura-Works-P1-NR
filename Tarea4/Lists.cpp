@@ -23,9 +23,11 @@ void Lists::fillList(){
         ListModel->appendRow(Items);
     }
      ui->list1->setModel(ListModel);
+     ui->txtPos->setText("");
+     ui->txtValor->setText("");
 }
 
-void Lists::on_append_clicked()
+void Lists::on_append_clicked()//agregar
 {
     if(ui->txtValor->text() != ""){
         lista.agregar(ui->txtValor->text().toInt());
@@ -33,7 +35,7 @@ void Lists::on_append_clicked()
     fillList();
 }
 
-void Lists::on_append_4_clicked()
+void Lists::on_append_4_clicked()//eliminar
 {
     if(ui->txtPos->text() != ""){
         lista.eliminar(ui->txtPos->text().toInt());
@@ -41,15 +43,15 @@ void Lists::on_append_4_clicked()
     fillList();
 }
 
-void Lists::on_append_2_clicked()
+void Lists::on_append_2_clicked()//insertar
 {
     if(ui->txtValor->text() != "" && ui->txtPos->text() != ""){
-        lista.insertar(ui->txtPos->text().toInt(),ui->txtValor->text().toInt());
+        lista.insertar(ui->txtValor->text().toInt(),ui->txtPos->text().toInt());
     }
     fillList();
 }
 
-void Lists::on_append_3_clicked()
+void Lists::on_append_3_clicked()//buscar
 {
     if(ui->txtValor->text() != ""){
         Carta* t = lista.buscar(ui->txtValor->text().toInt());
