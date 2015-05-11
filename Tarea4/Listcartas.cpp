@@ -61,6 +61,8 @@ void ListCartas::eliminar(int pos){
 }
 
 Carta* ListCartas::buscar(int num){
+    if (!inicio)
+        return NULL;
     Carta* t = inicio;
     if(num == inicio->num)
         return inicio;

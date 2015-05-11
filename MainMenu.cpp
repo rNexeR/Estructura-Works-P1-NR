@@ -15,7 +15,6 @@ MainMenu::~MainMenu()
 
 void MainMenu::open_Semaphore(){
     Semaphore *Ventana_Nueva = new Semaphore();
-    Ventana_Nueva->setWindowModality(Qt::ApplicationModal);
     Ventana_Nueva->show();
 }
 
@@ -27,7 +26,6 @@ void MainMenu::on_pushButton_clicked()
 void MainMenu::on_pushButton_2_clicked()
 {
     Duplicates *Ventana_Nueva = new Duplicates();
-    Ventana_Nueva->setWindowModality(Qt::ApplicationModal);
     Ventana_Nueva->show();
 }
 
@@ -40,5 +38,23 @@ void MainMenu::on_pushButton_3_clicked()
 void MainMenu::on_pushButton_4_clicked()
 {
     Lists *Ventana_Nueva = new Lists();
+    Ventana_Nueva->show();
+}
+
+void MainMenu::on_pushButton_5_clicked()
+{
+    Cursores *Ventana_Nueva = new Cursores();
+    Ventana_Nueva->show();
+}
+
+void MainMenu::on_pushButton_6_clicked()
+{
+    Pilas *Ventana_Nueva = new Pilas();
+    Ventana_Nueva->show();
+}
+
+void MainMenu::on_pushButton_7_clicked()
+{
+    Colas *Ventana_Nueva = new Colas();
     Ventana_Nueva->show();
 }

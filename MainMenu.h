@@ -6,6 +6,9 @@
 #include "Tarea2/Duplicates.h"
 #include "Tarea3/Arrays.h"
 #include "Tarea4/Lists.h"
+#include "Tarea5/Cursores.h"
+#include "Tarea6/Pilas.h"
+#include "Tarea7/Colas.h"
 
 namespace Ui {
 class MainMenu;
@@ -28,6 +31,12 @@ private slots:
     void on_pushButton_3_clicked();
 
     void on_pushButton_4_clicked();
+
+    void on_pushButton_5_clicked();
+
+    void on_pushButton_6_clicked();
+
+    void on_pushButton_7_clicked();
 
 private:
     Ui::MainMenu *ui;
