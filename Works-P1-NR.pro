@@ -29,7 +29,11 @@ SOURCES += main.cpp\
     Tarea5/Nodo.cpp \
     Tarea7/Nodoc.cpp \
     Tarea7/Colas.cpp \
-    Tarea7/Cola.cpp
+    Tarea7/Cola.cpp \
+    Tarea8/Conjunto.cpp \
+    Tarea8/Conjuntos.cpp \
+    Tarea8/Hashtable.cpp \
+    Tarea8/Dictionary.cpp
 
 HEADERS  += MainMenu.h \
     Tarea1/color.h \
@@ -49,7 +53,11 @@ HEADERS  += MainMenu.h \
     Tarea6/NodoP.h \
     Tarea7/Nodoc.h \
     Tarea7/Colas.h \
-    Tarea7/Cola.h
+    Tarea7/Cola.h \
+    Tarea8/Conjunto.h \
+    Tarea8/Conjuntos.h \
+    Tarea8/Hashtable.h \
+    Tarea8/Dictionary.h
 
 FORMS    += MainMenu.ui \
     Tarea1/Semaphore.ui \
@@ -58,4 +66,6 @@ FORMS    += MainMenu.ui \
     Tarea4/Lists.ui \
     Tarea5/Cursores.ui \
     Tarea6/pilas.ui \
-    Tarea7/Colas.ui
+    Tarea7/Colas.ui \
+    Tarea8/Conjuntos.ui \
+    Tarea8/Hashtable.ui

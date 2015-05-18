@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Conjuntos</class>
+ <widget class="QWidget" name="Conjuntos">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>490</width>
+    <height>433</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Conjuntos</string>
+  </property>
+  <widget class="QListWidget" name="listc1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>151</width>
+     <height>281</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listc2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>30</y>
+     <width>151</width>
+     <height>281</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listcr">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>30</y>
+     <width>151</width>
+     <height>281</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Conjunto 1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>10</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Conjunto 2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>10</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Conjunto Resultado</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="conjunto1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>320</y>
+     <width>151</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="conjunto2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>320</y>
+     <width>151</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>360</y>
+     <width>96</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Insertar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>320</y>
+     <width>96</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Union</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>360</y>
+     <width>96</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Interseccion</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>400</y>
+     <width>96</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Diferencia</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>360</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Valor:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtvalor">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>360</y>
+     <width>151</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmbconjunto">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>400</y>
+     <width>151</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Conjunto Nuevo</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Conjunto:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

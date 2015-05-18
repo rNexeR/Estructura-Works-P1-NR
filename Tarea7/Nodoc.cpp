@@ -6,6 +6,11 @@ NodoC::NodoC()
     sig = NULL;
 }
 
+NodoC::NodoC(QString val){
+    valor = val;
+    sig = NULL;
+}
+
 NodoC::~NodoC()
 {
 

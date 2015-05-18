@@ -9,6 +9,8 @@
 #include "Tarea5/Cursores.h"
 #include "Tarea6/Pilas.h"
 #include "Tarea7/Colas.h"
+#include "Tarea8/Conjuntos.h"
+#include "Tarea8/Hashtable.h"
 
 namespace Ui {
 class MainMenu;
@@ -37,6 +39,10 @@ private slots:
     void on_pushButton_6_clicked();
 
     void on_pushButton_7_clicked();
+
+    void on_pushButton_8_clicked();
+
+    void on_pushButton_9_clicked();
 
 private:
     Ui::MainMenu *ui;

@@ -6,6 +6,7 @@ class NodoC
 {
 public:
     NodoC();
+    NodoC(QString val);
     ~NodoC();
     NodoC* sig;
     QString valor;

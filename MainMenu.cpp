@@ -58,3 +58,15 @@ void MainMenu::on_pushButton_7_clicked()
     Colas *Ventana_Nueva = new Colas();
     Ventana_Nueva->show();
 }
+
+void MainMenu::on_pushButton_8_clicked()
+{
+    Conjuntos *Ventana_Nueva = new Conjuntos();
+    Ventana_Nueva->show();
+}
+
+void MainMenu::on_pushButton_9_clicked()
+{
+    HashTable *Ventana_Nueva = new HashTable();
+    Ventana_Nueva->show();
+}
